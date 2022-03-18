@@ -37,7 +37,7 @@ function Contact() {
 <div className='container' style={{ paddingBottom: "20%" }}>
   <div className='row' style={{ marginTop: "36px" }}>
     <div style={{ paddingLeft: "12%" }} className='col-lg-6'>
-        <h1 style={{ color: "#D4A62A" }}>PHONE</h1>
+        <h1 style={{ color: "#D4A62A" }}>Phone</h1>
          <img style={{ paddingLeft: "43px" }} src={Phone}/>
          <p style={{ textAlign: "justify" }}>+92-213-4322238-39</p>
     </div>
