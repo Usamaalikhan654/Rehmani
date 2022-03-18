@@ -1,0 +1,53 @@
+.legend3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../../Assets/contact.png");
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center center;
+  @media (max-width: 500px) {
+    height: 500px;
+  }
+
+  @media (max-width: 900px) {
+    justify-content: center;
+  }
+}
+
+.legendHeading {
+  font-size: 45px;
+  line-height: 53px;
+  margin-left: 86px;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+  display: flexbox;
+  @media (max-width: 400px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  @media (max-width: 900px) {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+
+.Headingpart {
+  color: #d4a62a;
+}

@@ -1,0 +1,35 @@
+.main-footer {
+  color: rgb(0, 0, 0);
+  background-color: #f7f7f7;
+  padding: 5em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.items-2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2em;
+}
+
+.items-3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
