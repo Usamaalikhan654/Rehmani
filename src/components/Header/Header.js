@@ -36,16 +36,16 @@ function Header() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <Link style={{ textDecoration: "none" }} to="/"><Nav.Link className="nav-link" href="#link">ABOUT</Nav.Link></Link>
-      <Link style={{ textDecoration: "none" }} to="/project"><Nav.Link className="nav-link" href="#link">PROJECTS</Nav.Link></Link>
+      {/* <Link style={{ textDecoration: "none" }} to="/"><Nav.Link className="nav-link" href="#link">ABOUT</Nav.Link></Link>
+      <Link style={{ textDecoration: "none" }} to="/project"><Nav.Link className="nav-link" href="#link">PROJECTS</Nav.Link></Link> */}
         {/* <Nav.Link className="nav-link" href="#link">DOCUMENT DOWNLOAD</Nav.Link> */}
         <Navbar.Brand style={{paddingLeft: "26px"}} href="#home">
-        <Link  to="/"><img style={{height: "60px"}} src={logo}/></Link>
+        <Link  to="/"><img style={{height: "60px", paddingLeft: "88%"}} src={logo}/></Link>
         </Navbar.Brand>
-        <Link style={{ textDecoration: "none" }} to="/amenities"><Nav.Link className="nav-link" href="#home">AMENITIES</Nav.Link></Link>
+        {/* <Link style={{ textDecoration: "none" }} to="/amenities"><Nav.Link className="nav-link" href="#home">AMENITIES</Nav.Link></Link> */}
         {/* <Nav.Link className="nav-link" href="#link">BUY-BACK</Nav.Link>
         <Nav.Link className="nav-link" href="#link">MY BOOKING</Nav.Link> */}
-        <Link style={{ textDecoration: "none" }} to="/contact"><Nav.Link className="nav-link" href="#link">CONTACT US</Nav.Link></Link>
+        {/* <Link style={{ textDecoration: "none" }} to="/contact"><Nav.Link className="nav-link" href="#link">CONTACT US</Nav.Link></Link> */}
       </Nav>
     </Navbar.Collapse>
   </Container>
