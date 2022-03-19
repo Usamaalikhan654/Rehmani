@@ -23,9 +23,11 @@ function Footer() {
           {/* Column2 */}
           <div className="col-lg-12 items-2">
             <img style={{ height: "150px" }} src={Img}/>
-           <p className="Img-para">MEHDI TOWER, SUITE 201-202, SMCHS,<br/>
+           <p className="Img-para">
+             Essam Rehmani Company Private Limited<br/>
+           MEHDI TOWER, SUITE 201-202, SMCHS,<br/>
              MAIN SHAHRAH-E-FAISAL, KARACHI.</p>
-             <p style={{padding: "21px"}}><Link style={{ textDecoration: "none" }} to="/"><span style={{ padding: "20px",color: "black" }}>ABOUT</span></Link>    |    <Link style={{ textDecoration: "none" , color: "black" }} to="/project"><span style={{ padding: "20px" }}>PROJECTS </span></Link>   |    <Link style={{ textDecoration: "none" }} to="/amenities"><span style={{ padding: "20px", color: "black" }}>AMENITIES</span></Link>    |    <Link style={{ textDecoration: "none" , color: "black" }} to="/contact"><span style={{ padding: "20px" }}>CONTACT US</span></Link> </p>
+             {/* <p style={{padding: "21px"}}><Link style={{ textDecoration: "none" }} to="/"><span style={{ padding: "20px",color: "black" }}>ABOUT</span></Link>    |    <Link style={{ textDecoration: "none" , color: "black" }} to="/project"><span style={{ padding: "20px" }}>PROJECTS </span></Link>   |    <Link style={{ textDecoration: "none" }} to="/amenities"><span style={{ padding: "20px", color: "black" }}>AMENITIES</span></Link>    |    <Link style={{ textDecoration: "none" , color: "black" }} to="/contact"><span style={{ padding: "20px" }}>CONTACT US</span></Link> </p> */}
              <div>
                    <a href="https://www.facebook.com/rehmaniproperties" target="_blank"><img style={{padding: "12px"}} src={Face}/></a>
                    <a href="https://www.linkedin.com/company/rehmaniproperties/" target="_blank"><img style={{padding: "12px"}} src={link}/></a>

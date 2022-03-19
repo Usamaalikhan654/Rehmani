@@ -20,12 +20,12 @@ function Header() {
             <img className='ul-img' src={phone}/>
             +92-213-4322238-39
             </li>
-            <li className='text-white'>
+            {/* <li className='text-white'>
             WHATSAPP
             <img className='ul-img1' src={Whatsapp}/>
-            </li>
+            </li> */}
             <li className='text-white'>
-            <Link to="/get"><Button className='li-button'>GET IN TOUCH</Button></Link>
+            {/* <Link to="/"><Button className='li-button'>GET IN TOUCH</Button></Link> */}
             </li>
           </ul>
       </div>
@@ -40,7 +40,7 @@ function Header() {
       <Link style={{ textDecoration: "none" }} to="/project"><Nav.Link className="nav-link" href="#link">PROJECTS</Nav.Link></Link> */}
         {/* <Nav.Link className="nav-link" href="#link">DOCUMENT DOWNLOAD</Nav.Link> */}
         <Navbar.Brand style={{paddingLeft: "26px"}} href="#home">
-        <Link  to="/"><img style={{height: "60px", paddingLeft: "88%"}} src={logo}/></Link>
+        <Link  to="/"><img style={{height: "60px", paddingLeft: "110%"}} src={logo}/></Link>
         </Navbar.Brand>
         {/* <Link style={{ textDecoration: "none" }} to="/amenities"><Nav.Link className="nav-link" href="#home">AMENITIES</Nav.Link></Link> */}
         {/* <Nav.Link className="nav-link" href="#link">BUY-BACK</Nav.Link>

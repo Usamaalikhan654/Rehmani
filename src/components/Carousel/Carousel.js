@@ -13,7 +13,7 @@ class CarouselSlider extends React.Component {
                 <div className='container' >
                     <div className="row slider-style">
                         <div className="col-sm-12">
-                            <h3 className="slide-head">RECENTLY ADDED PROPERTIES</h3>
+                            <h3 className="slide-head">GALLERY</h3>
                         </div>
                     </div>
                     <div className="row">
