@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef,useState } from 'react'
 import Footer from '../../components/Footer/Footer';
 import Header from "../../components/Header/Header";
 import Detail from './Detail';
@@ -9,16 +9,26 @@ import ReactPlayer from 'react-player'
 import Backvideo from "../../Video/RehmaniCottages.mp4"
 
 function Home() {
+
+  const playerRef = useRef(null);
+  const [playing, setPlaying] = useState(true)
   return (
 <div>
     <Header/>
     <div>
-    <ReactPlayer  width="1348px" height="780px" controls={false}  loop={true} playing={true} url={Backvideo}/>
-    {/*
-    <video   autoplay muted loop  class="w-100" alt="" width="100%" height="784">
-			<source src={Backvideo}  type="video/mp4"/>
-    </video>
-    */}
+    <div className='container-fluid'>
+    {/* <ReactPlayer  style={{ width: "1362px",marginLeft: "-14px" }} height="780px" controls={false}  loop={true} playing={playing}  progressInterval={200}  url="http://www.rehmaniproperties.com/static/media/RehmaniCottages.fea0efa065f7a4069900.mp4"/> */}
+
+    {/* <video>
+      <source autoplay loop src="http://www.rehmaniproperties.com/static/media/RehmaniCottages.fea0efa065f7a4069900.mp4" type="video/mp4"/>
+    </video> */}
+    </div>
+    
+    <video style={{ width: "100%" }}  autoPlay loop>
+  <source  src={Backvideo} type="video/mp4"/>
+  <p>Your browser cannot play the provided video file.</p>
+</video>
+   
     {/* <div>
       <p className="legendHeading">
       <span className='Headingpart'>REHMANI PROPERTIES </span> 
